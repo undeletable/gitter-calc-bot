@@ -4,7 +4,9 @@ var format = require('string-format'),
 module.exports = {
     getFormattedText: function (text) {
         var isValidExpression = strings.messagePattern.test(text) &&
-            text.match(strings.leftBracketPattern).length == text.match(strings.rightBracketPattern).length;
+            strings.leftBracketPattern.test(text) == strings.rightBracketPattern.test(text) &&
+            (!strings.leftBracketPattern.test(text) ||
+                text.match(strings.leftBracketPattern).length == text.match(strings.rightBracketPattern).length);
         return isValidExpression ? text.replace(strings.keyWordPattern, '') : '';
     },
     calculate: function (expr) {
