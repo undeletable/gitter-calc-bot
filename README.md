@@ -11,4 +11,4 @@ calc (2 + 2) * 0.2
 $ npm install
 $ node index.js [token=yourGitterToken] [room=pathToRoom]
 ```
-If Gitter token and room ID values aren't passed via command line options they will be taken from [config.js] file.
+If Gitter token and room ID values aren't passed via command line options they will be taken from [config.js](https://github.com/undeletable/gitter-calc-bot/blob/master/config.js) file.
