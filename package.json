@@ -1,0 +1,13 @@
+{
+    "name": "gitter-calc-bot",
+    "version": "0.0.1",
+    "description": "Bot for Gitter service that calculates arithmetic expressions",
+    "author": {
+        "name": "Max Shepel",
+        "email": "max@undeletable.name"
+    },
+    "dependencies": {
+        "node-gitter": "^1.2.8",
+        "string-format": "^0.5.0"
+    }
+}
