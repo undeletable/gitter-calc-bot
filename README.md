@@ -12,3 +12,5 @@ $ npm install
 $ node index.js [token=yourGitterToken] [room=pathToRoom]
 ```
 If Gitter token and room ID values aren't passed via command line options they will be taken from [config.js](https://github.com/undeletable/gitter-calc-bot/blob/master/config.js) file.
+
+[![Join the chat at https://gitter.im/undeletable/gitter-calc-bot](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/undeletable/gitter-calc-bot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
