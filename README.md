@@ -1,6 +1,6 @@
 # Gitter calc bot
 Bot for [Gitter](https://gitter.im) service that calculates arithmetic expressions.
-Task for UA Web Challenge VII (Front-End Developer nomination, qualifying stage).
+Task for [UA Web Challenge VII](http://uawebchallenge.com/) (Front-End Developer nomination, qualifying stage).
 ## How to use
 Expression should be posted as a message in Gitter chat room starting with ```calc```. Allowed operators: ```()```, ```*```, ```/```, ```+```, ```-```. For example:
 ```
